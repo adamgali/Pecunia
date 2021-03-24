@@ -1,0 +1,44 @@
+.page-header {
+  background-color: $light-azure;
+  margin-bottom: $l-size;
+  padding: $l-size 0;
+  height: 340px;
+}
+
+.add_expenses_header {
+  margin: 40px 80px 0 80px;
+  background: $white;
+}
+
+.add_expenses_img {
+  position: relative;
+  left: 67rem;
+}
+
+.page-header__actions {
+  position: relative;
+  left: 1.1rem;
+  top:5rem;
+  margin-top: $m-size;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.page-header__title {
+  position: relative;
+  left: 1rem;
+  top:5rem;
+  font-weight: 300;
+  margin: 0;
+  z-index: 100;
+  span {
+    font-weight: 700;
+  }
+}
+
+.add_expenses__title, .edit_expenses__title {
+  position: relative;
+  bottom: 23rem;
+  left: 1rem;
+}
+

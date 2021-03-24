@@ -1,0 +1,28 @@
+.content-container {
+  margin: 0 auto;
+  padding: 0 $m-size;
+  max-width: 80rem;
+}
+
+.add_expenses_container {
+ border-color: 10px solid $darker-blue;
+}
+
+.dashboard_header{
+  margin: 40px 80px 0 80px;
+  background-color: $white;
+  border-radius: 0.5rem;
+}
+
+.page-header_image {
+  position: relative;
+  bottom: 27rem;
+  left: 27.5rem;
+  overflow-x: hidden;
+}
+
+.expense-image {
+  position: relative;
+  bottom: 5rem;
+  left: 45rem;
+}

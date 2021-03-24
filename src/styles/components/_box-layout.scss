@@ -1,0 +1,49 @@
+.home-section {
+	background-color: $light-azure;
+	margin: 40px 40px 0 40px;
+	max-height: 560px;
+	max-width: auto;
+	overflow: hidden;
+}
+
+.home-group {
+	position: relative;
+	bottom: 540px;
+	left: 480px;
+}
+
+.home-group_title {
+	position: relative;
+	top: 11rem;
+	margin-bottom: 1rem;
+	font-size: 3.2rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 0.75rem;
+	color: $darker-blue;
+}
+
+.home-group_description {
+	position: relative;
+	top: 11rem;
+	color: $light-blue;
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+
+.loginpage_arrow {
+	position: relative;
+	top:11.1em;
+	left: 20rem;
+	width: 30px;
+	cursor: pointer;
+}
+
+.copyright {
+	font-family: $bold-font;
+	font-weight: 700;
+	position: relative;
+	top: 25rem;
+	left: 41rem;
+}
+

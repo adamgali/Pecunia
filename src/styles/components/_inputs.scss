@@ -1,0 +1,80 @@
+.text-input {
+	border: 1px solid $page;
+  border-radius: 2px;
+  height: 50px;
+  font-size: $font-size-small;
+  font-weight: 500;
+  padding: $s-size;
+  color: $darker-blue;
+}
+
+.select {
+	font-family: $bold-font;
+  border: 1px solid $light-grey;
+	font-size: 1.19rem;
+	bottom: 100px;
+	line-height: 2rem;
+  @extend .text-input;
+}
+
+.textarea {
+  border: 1px solid $light-grey;
+  resize: none;
+  @extend .text-input;
+  height: 10rem;
+}
+
+.add_expenses_button {
+  font-family: $bold-font;
+	color: $white;
+	margin-top: 1.5rem;
+	padding: 1.425rem 1.5rem 1.575rem;
+	display: inline-block;
+	border-radius: 0.25rem;
+	border: 1px solid $pale-green;
+	background: $pale-green;
+	cursor: pointer;
+	font-size: 1.1rem;
+	letter-spacing: 0.9px;
+	&:hover {
+		background-color: $light-green;
+		border: 1px solid $light-green;
+	}
+}
+
+.remove_expenses_button {
+  font-family: $bold-font;
+	color: $white;
+	margin-top: 1.5rem;
+	margin-bottom: 1.2rem;
+	padding: 1.425rem 1.5rem 1.575rem;
+	display: inline-block;
+	border-radius: 0.25rem;
+	border: 1px solid $red;
+	background: $red;
+	cursor: pointer;
+	font-size: 1.1rem;
+	letter-spacing: 0.9px;
+	&:hover {
+		background: $light-red;
+		border: 1px solid $light-red;
+	}
+}
+
+.DateRangePickerInput__arrow svg {
+	display: none;
+}
+
+.text-input:focus {
+  outline: none;
+  color: $darker-blue;
+}
+
+.text-input:focus::placeholder {
+  opacity: 0.5;
+}
+
+::placeholder {
+  font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑";
+  font-size: 1.2rem;
+}
